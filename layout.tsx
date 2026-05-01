@@ -4,8 +4,8 @@ import { AuthProvider } from '@/context/auth-context';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'MVPS Connect',
-  description: 'App for Manvasa Vidya Public School',
+  title: 'Manvasa Vidya Public School | MVPS',
+  description: 'Official web portal for Manvasa Vidya Public School, Bhadohi.',
 };
 
 export default function RootLayout({

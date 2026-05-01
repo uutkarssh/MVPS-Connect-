@@ -86,3 +86,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.notice-ticker {
+  display: inline-block;
+  min-width: 100%;
+  animation: ticker-scroll 22s linear infinite;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
